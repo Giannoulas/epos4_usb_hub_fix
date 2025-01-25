@@ -4,7 +4,7 @@ The port names and node IDs of EPOS4 controllers can be problematic when using U
 
 ## Tested Devices
 
-This solution was tested on the following Maxon EPOS 4 Controllers:
+This solution was tested on the following Maxon EPOS 4 Controllers using a Linux Machine:
 - Maxon EPOS 4 50/15: https://www.maxongroup.com/maxon/view/product/control/Positionierung/EPOS-4/520886
 - Maxon EPOS 4 50/5: https://www.maxongroup.com/maxon/view/product/control/Positionierung/EPOS-4/541718
 
@@ -33,6 +33,7 @@ The current implementation supports up to 999 devices, though this limit can be 
 Key Files:
 - value_assigner.cpp: Contains the main functions for the port-to-ID matching logic.
 - value_assigner.hpp: Defines two structs and a function template. Also includes instructions for the function arguments.
+- Definitions.h, that is the file that one can download from the maxon website as part of the linux library zip
 
 Main Function:
 int value_assigner(int number_of_devices, unsigned short *available_ids, usb_and_id *usb_and_id_array)
