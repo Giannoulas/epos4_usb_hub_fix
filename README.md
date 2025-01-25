@@ -1,4 +1,4 @@
-# EPOS4 USB Hub Fix
+# Maxon EPOS4 USB Hub Fix
 
 The port names and node IDs of EPOS4 controllers can be problematic when using USB hubs. A solution found while working on Hermes Team, https://www.hermesteam.eu/. 
 
