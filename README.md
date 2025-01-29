@@ -49,4 +49,4 @@ However, all in all, the current implementation is good enough.
 
 ## Acknowledgments
 
-This work was developed by the Hermes Team, https://www.hermesteam.eu/, with Maxon as a sponsor.
+This work was developed by the Hermes Team, https://www.hermesteam.eu/, of which Maxon is a sponsor.
