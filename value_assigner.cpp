@@ -85,6 +85,7 @@ int check_successful_assign(char *usb_name, unsigned short current_id, default_d
         return_value = 1;
 	}
 	else {
+        
         //success
 		return_value = 0;
 	}
@@ -143,7 +144,7 @@ int value_assigner(int number_of_devices, unsigned short *available_ids, usb_and
 				return 1;
 			}
 			else if (check_value == 0){ //success
-				(usb_and_id_array+k)->node_id = *(available_ids + k);   //update the return values
+				(usb_and_id_array+i)->node_id = *(available_ids + k);   //update the return values
                 **(usb_names +i) = 'X'; //mark the usb as used
 				break;
 			}
